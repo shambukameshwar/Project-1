@@ -1,0 +1,235 @@
+#colorlib-hero .flexslider .slider-text > .slider-text-inner h1{
+    font-size: 32px;
+}
+.bgVideo--heroSection{
+    opacity: 1;
+    position: absolute;
+    min-width: 1335px;
+    min-height: 751px;
+}
+.whatWeDo__section{
+    display: flex;
+    align-items: center;
+}
+.blog-entry .desc h3 a{
+    line-height: 1.5;
+}
+#colorlib-aside{
+    opacity: 0.5;
+    overflow-y: auto;
+}
+
+/* Modal styles */
+#contactModal    .modal-content{
+	overflow:hidden;
+}
+a.h2{
+    color:#FFC300;
+    margin-bottom:0;
+    text-decoration:none;
+}
+#contactModal .form-control {
+    height: 56px;
+    border-radius: 30px;
+    padding-left:30px;
+    margin-bottom: 20px;
+}
+#contactModal .btn {
+	padding-right:20px;
+	background:#FFC300;
+    border-color:#FFC300;
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 65px;
+}
+#contactModal .contactModal--textarea{
+    resize: none;
+    height: auto;
+    padding: 30px;
+}
+#contactModal .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #FFC300;
+    outline: 0;
+    box-shadow: none;
+}
+#contactModal .top-strip{
+    height: 155px;
+    background: #FFC300;
+    transform: rotate(143deg);
+    margin-top: -100px;
+    margin-right: 190px;
+    margin-left: -140px;
+    border-bottom: 65px solid #f29600;
+    border-top: 10px solid #f29600;
+}
+#contactModal .bottom-strip{
+    height: 155px;
+    background: #FFC300;
+    transform: rotate(115deg);
+    margin-top: -110px;
+    margin-right: -250px;
+    margin-left: 300px;
+    border-bottom: 65px solid #f29600;
+    border-top: 10px solid #f29600;
+}
+#colorlib-aside #colorlib-main-menu ul li a{
+    color: #fff;
+    font-weight: 900;
+}
+.contact_form{
+    display: block;
+    z-index: 26;
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact__form--trigger{
+    cursor: pointer;
+}
+#colorlib-aside #colorlib-logo a{
+    padding-right: 0;
+}
+.pricingdiv{
+    display: flex;
+    justify-content: center;
+    font-family: "Quicksand", Arial, sans-serif;
+    align-items: flex-start;
+  }
+  
+  .pricingdiv ul.theplan{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    background: #7c3ac9;
+    position: relative;
+    width: 300px;
+    margin-right: 30px;
+    margin-bottom: 1em;
+    transition: all .5s;
+    margin-top: 50px;
+  }
+  .price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+  }
+  .price--rounded{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    margin-bottom: -20px;
+    margin-top: -50px;
+    font-weight: 900;
+  }
+  .pricingdiv ul.theplan:hover{ /* when mouse hover over pricing table */
+    transform: scale(1.05);
+    transition: all .5s;
+    z-index: 100;
+    box-shadow: 0 0 10px gray;
+  }
+  
+  .pricingdiv ul.theplan li{
+    margin: 10px 20px;
+    position: relative;
+  }
+  
+  .pricingdiv ul.theplan li.title{
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    border-bottom: 5px solid white;
+  }
+  .pricingdiv ul.theplan:nth-of-type(1) .price--rounded{
+    border: 3px solid #5f14b6;
+    }
+  .pricingdiv ul.theplan:nth-of-type(2){
+    background: #e53499;
+  }
+  .pricingdiv ul.theplan:nth-of-type(2) .price--rounded{
+    border: 3px solid #fd0091;
+}  
+  .pricingdiv ul.theplan:nth-of-type(3){
+    background: #2a2cc8;
+  }
+  .pricingdiv ul.theplan:nth-of-type(3) .price--rounded{
+    border: 3px solid #1417ff;
+}  
+  .pricingdiv ul.theplan:nth-of-type(4) {
+    background: #34b7e5;
+}
+.pricingdiv ul.theplan:nth-of-type(4) .price--rounded{
+    border: 3px solid #10a0d2;
+}  
+  .pricingdiv ul.theplan:last-of-type{ /* remove right margin in very last table */
+    margin-right: 0;
+  }
+  
+  /*very last LI within each pricing UL */
+  .pricingdiv ul.theplan li:last-of-type{
+    text-align: center;
+    margin-top: auto; /*align last LI (price botton li) to the very bottom of UL */
+  }  
+  
+  .pricingdiv a.pricebutton{
+    background: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px auto;
+    border-radius: 5px;
+    color: navy;
+    text-transform: uppercase;
+  }
+  @media only screen and (max-width:991px){
+    .bgVideo--heroSection{
+        display: none;
+    }
+  }
+  @media only screen and (max-width:767px){
+    .pricingdiv{
+        flex-wrap: wrap;
+    }
+    .whatWeDo__section{
+        flex-wrap: wrap;
+    }
+    .colorlib-nav-toggle{
+        background: linear-gradient(130deg, #7300ff,#f500ff);
+        padding-top: 10px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .pricingdiv ul.theplan{
+      border-radius: 0;
+      width: 100%;
+      margin-right: 0;
+    }
+    
+    .pricingdiv ul.theplan:hover{
+      transform: none;
+      box-shadow: none;
+    }
+    
+    .pricingdiv a.pricebutton{
+      display: block;
+    }
+  }
+  
