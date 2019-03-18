@@ -53,9 +53,44 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 	</head>
 	<body>
 	<div id="colorlib-page">
+
+			<h1 id="home-colorlib-logo"><a href="index.html"><img src="images/logo.png" alt="" class="img-responsive"><span>SRI PRITHIVI </span>CONSTRUCTIONS</a></h1>
+
+		<div class="home-sidemenu">
+				<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+				<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+					<!-- <h1 id="colorlib-logo"><a href="index.html"><img src="images/logo.png" alt="" class="img-responsive"></a></h1> -->
+					<nav id="colorlib-main-menu" role="navigation">
+						<ul>
+							<li class="colorlib-active"><a href="index.html">Home</a></li>
+							<li><a href="work.html">Project</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="services.html">Services</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="news.html">News &amp; Events</a></li>
+							<li><a class="contact__form--trigger" data-toggle="modal" data-target="#contactModal">Contact</a></li>
+						</ul>
+					</nav>
+		
+					<div class="colorlib-footer">
+						<ul>
+							<li><a href="#"><i class="icon-facebook2"></i></a></li>
+							<li><a href="#"><i class="icon-twitter2"></i></a></li>
+							<li><a href="#"><i class="icon-instagram"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+						</ul>
+					</div>
+		
+				</aside>
+		</div>
 
 		<div id="colorlib-main">
 			<aside id="colorlib-hero" class="js-fullheight">
@@ -63,6 +98,12 @@
 					
 						<div class="row">
 							<div class="col-md-12">
+
+								<div class="banner-video-player">
+									<div class="video-wrapper">
+										<iframe src="https://www.youtube.com/embed/Zhawgd0REhA" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+									</div>
+								</div>
 
 								<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 									<div class="carousel-inner">
@@ -85,8 +126,8 @@
 								</div>
 								<div class="side-menu_custom">
 										<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
-										<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-											<h1 id="colorlib-logo"><a href="index.html"><img src="images/logo.png" alt="" class="img-responsive"></a></h1>
+										<aside id="colorlib-aside" role="complementary" class="border js-fullheight" style="height:488px">
+											<!-- <h1 id="colorlib-logo"><a href="index.html"><img src="images/logo.png" alt="" class="img-responsive"></a></h1> -->
 											<nav id="colorlib-main-menu" role="navigation">
 												<ul>
 													<li class="colorlib-active"><a href="index.html">Home</a></li>
@@ -111,64 +152,7 @@
 								
 										</aside>
 								</div>
-								<div class="main-text hidden-xs">
-									<div class="col-md-3 main-text_inner">
-										<label>CONSTRUCTION</label>
-										<div class="project" style="background-image: url(images/bg-cover/construction-bg.jpg);">
-											<div class="desc">
-												<div class="con">
-														<p><a href="work.html">Construction is the core part of  prithvi..!</a></p>
-														<button>View more</button>
-												</div>
-											</div>
-										</div>
-										<div class="pin">
-											<img src="images/bg-cover/pin.png">
-										</div>
-									</div>
-									<div class="col-md-3 main-text_inner">
-										<label>RENOVATION</label>
-										<div class="project" style="background-image: url(images/bg-cover/renovation.png);">
-											<div class="desc">
-												<div class="con">
-													<p><a href="work.html">We Renovate your legacy to fancy..!</a></p>
-													<button>View more</button>
-												</div>
-											</div>
-										</div>
-										<div class="pin">
-												<img src="images/bg-cover/pin.png">
-										</div>
-									</div>
-									<div class="col-md-3 main-text_inner">
-										<label>SERVICES</label>
-										<div class="pin">
-												<img src="images/bg-cover/pin.png">
-										</div>
-										<div class="project" style="background-image: url(images/bg-cover/services-bg.jpg);">
-											<div class="desc">
-												<div class="con">
-													<p><a href="work.html">Our Services offered faster solutions for your building..!</a></p>
-													<button>View more</button>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-3 main-text_inner">
-										<label>CONSULTATION</label>
-										<div class="pin">
-												<img src="images/bg-cover/pin.png">
-										</div>
-										<div class="project" style="background-image: url(images/bg-cover/consultation.png);">
-											<div class="desc">
-												<div class="con">
-													<p><a href="work.html">Offering consultation as a solution for your queries..!</a></p>
-													<button>View more</button>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
+								
 							</div>
 						</div>
 			  	
@@ -199,6 +183,101 @@
 		</div>
 		</div>
 	</div>
+	<div id="home_sevice-slider" class="carousel slide" data-ride="carousel">
+
+			<!-- Indicators -->
+			<ul class="carousel-indicators">
+			  <li data-target="#demo" data-slide-to="0" class="active"></li>
+			  <li data-target="#demo" data-slide-to="1"></li>
+			  <li data-target="#demo" data-slide-to="2"></li>
+			</ul>
+			
+			<!-- The slideshow -->
+			<div class="container carousel-inner no-padding">
+			  <div class="carousel-item active">
+				<div class="col-xs-4 col-sm-4 col-md-4 home-services">
+						<label>CONSTRUCTION</label>
+						<div class="project" style="background-image: url(images/bg-cover/construction-bg.jpg);">
+							<div class="desc">
+								<div class="con">
+										<p><a href="work.html">Construction is the core part of  prithvi..!</a></p>
+										<button>View more</button>
+								</div>
+							</div>
+						</div>
+				</div>    
+				<div class="col-xs-4 col-sm-4 col-md-4 home-services">
+						<label>RENOVATION</label>
+						<div class="project" style="background-image: url(images/bg-cover/renovation.png);">
+							<div class="desc">
+								<div class="con">
+									<p><a href="work.html">We Renovate your legacy to fancy..!</a></p>
+									<button>View more</button>
+								</div>
+							</div>
+						</div>
+				</div>   
+				<div class="col-xs-4 col-sm-4 col-md-4 home-services">
+						<label>SERVICES</label>
+						<div class="project" style="background-image: url(images/bg-cover/services-bg.jpg);">
+							<div class="desc">
+								<div class="con">
+									<p><a href="work.html">Our Services offered faster solutions for your building..!</a></p>
+									<button>View more</button>
+								</div>
+							</div>
+						</div>
+				</div>   
+				
+			  </div>
+			  <div class="carousel-item">
+
+					<div class="col-xs-4 col-sm-4 col-md-4 home-services">
+							<label>CONSULTATION</label>
+							<div class="project" style="background-image: url(images/bg-cover/consultation.png);">
+								<div class="desc">
+									<div class="con">
+										<p><a href="work.html">Offering consultation as a solution for your queries..!</a></p>
+										<button>View more</button>
+									</div>
+								</div>
+							</div>
+					</div>   
+					  
+					<div class="col-xs-4 col-sm-4 col-md-4 home-services">
+							<label>RENOVATION</label>
+							<div class="project" style="background-image: url(images/bg-cover/renovation.png);">
+								<div class="desc">
+									<div class="con">
+										<p><a href="work.html">We Renovate your legacy to fancy..!</a></p>
+										<button>View more</button>
+									</div>
+								</div>
+							</div>
+					</div>   
+					<div class="col-xs-4 col-sm-4 col-md-4 home-services">
+							<label>SERVICES</label>
+							<div class="project" style="background-image: url(images/bg-cover/services-bg.jpg);">
+								<div class="desc">
+									<div class="con">
+										<p><a href="work.html">Our Services offered faster solutions for your building..!</a></p>
+										<button>View more</button>
+									</div>
+								</div>
+							</div>
+					</div>   
+				  </div>
+			  
+			</div>
+			
+			<!-- Left and right controls -->
+			<a class="carousel-control-prev" href="#demo" data-slide="prev">
+			  <span class="carousel-control-prev-icon"></span>
+			</a>
+			<a class="carousel-control-next" href="#demo" data-slide="next">
+			  <span class="carousel-control-next-icon"></span>
+			</a>
+		  </div>
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
